@@ -1,8 +1,11 @@
 #ifndef CABECALHO_H_INCLUDED
 #define CABECALHO_H_INCLUDED
 
-double litrosNecessarios(double d, double c);
-double valorDaViagem (double ln, double vc);
-int menuPrincipal ();
+void gerarRelatorio(double distancia, double consumo, double combustivel, double result);
+double litrosNecessarios(double, double );
+double valorDaViagem (double, double);
+int verificaZero(double);
+void limparTela();
+void menuPrincipal ();
 
 #endif // CABECALHO_H_INCLUDED
