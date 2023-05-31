@@ -1,3 +1,9 @@
+/* ENUNCIADO
+
+Faça um algoritmo para resolver um sistema de equações do primeiro grau.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
